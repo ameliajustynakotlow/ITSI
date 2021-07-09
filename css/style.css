@@ -1,0 +1,118 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body, p, h1, h2, h3{
+	font-family: 'Quicksand', sans-serif;
+	color: pink;
+}
+
+body{
+	background-image: url('../images/temporary-background.jpg');
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+#video-background {
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+	z-index: -1;
+}
+
+.top-row {
+	height: 260px;
+	padding: 20px;
+}
+
+#earth {
+	height: 260px;
+	float: left;
+}
+
+#rocket {
+	margin-top: 85px;
+  height: 65px;
+	float: left;
+}
+
+#mars {
+	height: 260px;
+	float: right;
+}
+
+.middle-row {
+	height: calc(100% - 300px);
+}
+
+.left-panel{
+	width: calc(30% - 20px);
+	padding-top: 40px;
+	padding-left: 20px;
+	height: calc(100% - 40px);
+	float: left;
+	text-align: center;
+}
+
+.middle-panel{
+	width: 40%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.right-panel{
+	width: calc(30% - 20px);
+	padding-top: 40px;
+	padding-right: 20px;
+	height: calc(100% - 40px);
+	float: right;
+	right:0;
+	text-align: center;
+}
+
+#welcome-message{
+	text-align: center;
+	color: white;
+	margin-top: 25px;
+}
+
+#date {
+	font-size: 75%;
+}
+
+#balance{
+	width: 20px;
+	height: 10px;
+}
+
+/*CURRENCY CONVERTER*/
+
+.currency-box{
+	width: 100%;
+	text-align: center;
+}
+
+.input-box {
+	width: 50%;
+	text-align: center;
+}
+
+/*MARTIAN ROCK SHOP*/
+#martian-rock-shop {
+	margin-top: 150px;
+}
+
+#martian-rock-shop > h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.shop-item {
+	width: 25%;
+	float: left;
+}

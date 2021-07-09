@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta charset="UTF-8" />
+	<script src="js/main.js" defer></script>
+		<title> I T S I </title>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<!-- VIDEO BACKGROUND -->
+		<video autoplay muted loop id="video-background">
+		  <source src="videos/space.mp4" type="video/mp4">
+		</video>
+
+		<div class="top-row">
+			<img id="earth" src="images/earth.png">
+			<img id="rocket" src="images/rocket.png">
+			<img id="mars" src="images/mars.png">
+		</div>
+		<div class="middle-row">
+			<div class="left-panel">
+				<!-- PARAMETERS -->
+				<div class="parameters">
+					<h2>Speed:</h2>
+					<span id="speed"></span>
+					<h2>Distance traveled:</h2>
+					<span id="distance-traveled"></span>
+					<h2>Fuel:</h2>
+					<span id="fuel"></span>
+				</div>
+			</div>
+
+			<div class="middle-panel">
+				<p id="date"></p>
+				<h1 id="welcome-message"></h1>
+				<!-- CURRENT BALANCE    -->
+				<h2 id="balance-text">Your balance is: <span id='balance'></span> <span id='currency'> </span></h2>
+
+				<!-- MARTIAN ROCK SHOP -->
+				<div id="martian-rock-shop">
+					<h2>Martian rock shop</h2>
+					<p>Click a button to buy supplies and your euros will automatically convert to Martian Rocks. Use the converter to the right to see how much euros each supply costs.</p>
+				</div>
+			</div>
+
+			<div class="right-panel">
+				<!-- CURRENCY CONVERTER -->
+				<h2>Currency converter</h2>
+				<div class="currency-box">
+					<h3> Euro </h3>
+					<input type="text" class="input-box" id="EUR" placeholder="1">
+				</div>
+				<div class="currency-box">
+					<h3>Martian Rocks</h3>
+					<input type="text" class="input-box" id="MR" placeholder="2.6">
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
